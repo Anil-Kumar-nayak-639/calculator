@@ -23,6 +23,7 @@ const Calculator = () => {
     }
     return (
         <div className='x'>
+            <h1 style={{ marginTop: "10px" }}>Anil Kumar Nayak</h1>
             <div className="container">
                 <form>
                     <input type="text" value={result} />
@@ -48,7 +49,7 @@ const Calculator = () => {
                     <button onClick={calculate} id='equal'>=</button>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
